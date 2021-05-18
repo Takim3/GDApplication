@@ -100,5 +100,10 @@ namespace GDApplication
             kayıtOlForm.Show();
 
         }
+
+        private void txtKullaniciAdi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
