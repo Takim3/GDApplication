@@ -52,6 +52,12 @@
     <Compile Include="AboneGirisForm.Designer.cs">
       <DependentUpon>AboneGirisForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AboneGörevSecim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboneGörevSecim.Designer.cs">
+      <DependentUpon>AboneGörevSecim.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminGirisForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHesapAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHesapAyarlari.Designer.cs">
+      <DependentUpon>frmHesapAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMakbuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMakbuz.Designer.cs">
+      <DependentUpon>frmMakbuz.cs</DependentUpon>
+    </Compile>
     <Compile Include="KayıtOlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +99,23 @@
     <EmbeddedResource Include="AboneGirisForm.resx">
       <DependentUpon>AboneGirisForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboneGörevSecim.resx">
+      <DependentUpon>AboneGörevSecim.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminGirisForm.resx">
       <DependentUpon>AdminGirisForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHesapAyarlari.resx">
+      <DependentUpon>frmHesapAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMakbuz.resx">
+      <DependentUpon>frmMakbuz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KayıtOlForm.resx">
       <DependentUpon>KayıtOlForm.cs</DependentUpon>

@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 
 namespace GDApplication
 {
-    //SENİ SEVİYORUUUUUUUUM
+    //SENİ SEVİYORUUUUUUUUM bende lov yuuuuuuuu <3
     public partial class KayıtOlForm : Form
     {
         SqlConnection baglanti = AboneGirisForm.baglanti;
@@ -248,6 +248,11 @@ namespace GDApplication
             komut.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Kayıt Gerçekleşti...","Program:");
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

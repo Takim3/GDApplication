@@ -22,7 +22,7 @@ namespace GDApplication
                 components.Dispose();
             }
             base.Dispose(disposing);
-            components.GetHashCode();
+          //  components.GetHashCode();
         }
 
         #region Windows Form Designer generated code

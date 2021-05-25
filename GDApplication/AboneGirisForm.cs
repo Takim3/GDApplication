@@ -13,7 +13,7 @@ namespace GDApplication
 {
     public partial class AboneGirisForm : Form
     {
-        public static SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-9IQ5NO3T;Initial Catalog=GazeteDergiApp; "
+        public static SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp; "
                     + "Integrated Security=TRUE");
         public AboneGirisForm()
         {
@@ -86,6 +86,8 @@ namespace GDApplication
             if (isThere)
             {
                 MessageBox.Show("Başarılı Giriş", "PROGRAM:");
+                frmAboneGorevEkrani yeniEkran = new frmAboneGorevEkrani();
+                yeniEkran.ShowDialog();
             }
             else
             {
