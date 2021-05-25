@@ -16,5 +16,11 @@ namespace GDApplication
         {
             InitializeComponent();
         }
+
+        private void btnKayitOl_Click(object sender, EventArgs e)
+        {
+            frmAboneKayit AboneKayit = new frmAboneKayit();
+            AboneKayit.ShowDialog();
+        }
     }
 }

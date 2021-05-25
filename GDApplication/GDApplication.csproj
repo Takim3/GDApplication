@@ -76,6 +76,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAboneKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAboneKayit.Designer.cs">
+      <DependentUpon>frmAboneKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGDKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGDKayit.Designer.cs">
+      <DependentUpon>frmGDKayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHesapAyarlari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAboneKayit.resx">
+      <DependentUpon>frmAboneKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGDKayit.resx">
+      <DependentUpon>frmGDKayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHesapAyarlari.resx">
       <DependentUpon>frmHesapAyarlari.cs</DependentUpon>
