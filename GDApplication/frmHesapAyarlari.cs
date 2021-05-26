@@ -22,5 +22,11 @@ namespace GDApplication
             frmAboneKayit AboneKayit = new frmAboneKayit();
             AboneKayit.ShowDialog();
         }
+
+        private void btnSifreDegistir_Click(object sender, EventArgs e)
+        {
+            frmSifreGuncelleme frmSifreGuncelleme2 = new frmSifreGuncelleme();
+            frmSifreGuncelleme2.ShowDialog();
+        }
     }
 }
