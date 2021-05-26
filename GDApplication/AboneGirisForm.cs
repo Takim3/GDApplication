@@ -107,5 +107,11 @@ namespace GDApplication
         {
 
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmSifreGuncelleme frmSifreGuncelleme = new frmSifreGuncelleme();
+            frmSifreGuncelleme.ShowDialog();
+        }
     }
 }
