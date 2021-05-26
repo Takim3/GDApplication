@@ -64,6 +64,7 @@ namespace GDApplication
             this.btnKayitOl.TabIndex = 2;
             this.btnKayitOl.Text = "Yeni Kayıt";
             this.btnKayitOl.UseVisualStyleBackColor = false;
+            this.btnKayitOl.Click += new System.EventHandler(this.btnKayitOl_Click);
             // 
             // frmHesapAyarlari
             // 
