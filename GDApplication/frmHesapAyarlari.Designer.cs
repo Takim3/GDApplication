@@ -57,6 +57,7 @@ namespace GDApplication
             this.btnKayitDuzenle.TabIndex = 1;
             this.btnKayitDuzenle.Text = "Kayıt Düzenle";
             this.btnKayitDuzenle.UseVisualStyleBackColor = false;
+            this.btnKayitDuzenle.Click += new System.EventHandler(this.btnKayitDuzenle_Click);
             // 
             // btnKayitOl
             // 

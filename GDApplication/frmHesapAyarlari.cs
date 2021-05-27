@@ -25,8 +25,14 @@ namespace GDApplication
 
         private void btnSifreDegistir_Click(object sender, EventArgs e)
         {
-            frmSifreGuncelleme frmSifreGuncelleme2 = new frmSifreGuncelleme();
-            frmSifreGuncelleme2.ShowDialog();
+            frmSifreDegistir frmSifreDegistir = new frmSifreDegistir();
+            frmSifreDegistir.ShowDialog();
+        }
+
+        private void btnKayitDuzenle_Click(object sender, EventArgs e)
+        {
+            frmKayıtDuzenleSecimEkrani frmKayıtDuzenleSecimEkranii = new frmKayıtDuzenleSecimEkrani();
+            frmKayıtDuzenleSecimEkranii.ShowDialog();
         }
     }
 }

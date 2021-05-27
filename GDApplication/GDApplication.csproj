@@ -82,6 +82,18 @@
     <Compile Include="frmAboneKayit.Designer.cs">
       <DependentUpon>frmAboneKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAdresGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdresGuncelleme.Designer.cs">
+      <DependentUpon>frmAdresGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmailGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmailGuncelleme.Designer.cs">
+      <DependentUpon>frmEmailGuncelleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGDKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,24 @@
     <Compile Include="frmHesapAyarlari.Designer.cs">
       <DependentUpon>frmHesapAyarlari.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKayıtDuzenleSecimEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKayıtDuzenleSecimEkrani.Designer.cs">
+      <DependentUpon>frmKayıtDuzenleSecimEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSehirGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSehirGuncelleme.Designer.cs">
+      <DependentUpon>frmSehirGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSifreDegistirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSifreDegistirme.Designer.cs">
+      <DependentUpon>frmSifreDegistirme.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMakbuz.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +135,18 @@
     </Compile>
     <Compile Include="frmSifreGuncelleme.Designer.cs">
       <DependentUpon>frmSifreGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTelGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelGuncelleme.Designer.cs">
+      <DependentUpon>frmTelGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmİlceGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmİlceGuncelle.Designer.cs">
+      <DependentUpon>frmİlceGuncelle.cs</DependentUpon>
     </Compile>
     <Compile Include="KayıtOlForm.cs">
       <SubType>Form</SubType>
@@ -133,17 +175,38 @@
     <EmbeddedResource Include="frmAboneKayit.resx">
       <DependentUpon>frmAboneKayit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAdresGuncelleme.resx">
+      <DependentUpon>frmAdresGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmailGuncelleme.resx">
+      <DependentUpon>frmEmailGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGDKayit.resx">
       <DependentUpon>frmGDKayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHesapAyarlari.resx">
       <DependentUpon>frmHesapAyarlari.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmKayıtDuzenleSecimEkrani.resx">
+      <DependentUpon>frmKayıtDuzenleSecimEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSehirGuncelleme.resx">
+      <DependentUpon>frmSehirGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSifreDegistirme.resx">
+      <DependentUpon>frmSifreDegistirme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMakbuz.resx">
       <DependentUpon>frmMakbuz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSifreGuncelleme.resx">
       <DependentUpon>frmSifreGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelGuncelleme.resx">
+      <DependentUpon>frmTelGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmİlceGuncelle.resx">
+      <DependentUpon>frmİlceGuncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KayıtOlForm.resx">
       <DependentUpon>KayıtOlForm.cs</DependentUpon>

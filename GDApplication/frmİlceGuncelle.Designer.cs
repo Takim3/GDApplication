@@ -1,7 +1,7 @@
 ﻿
 namespace GDApplication
 {
-    partial class frmSifreGuncelleme
+    partial class frmİlceGuncelle
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,8 @@ namespace GDApplication
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.txtMail = new System.Windows.Forms.TextBox();
+            this.txtYeniİlce = new System.Windows.Forms.TextBox();
             this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -40,89 +39,94 @@ namespace GDApplication
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.SandyBrown;
             this.button1.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(199, 301);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(187, 204);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 40);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "GÖNDER";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Size = new System.Drawing.Size(133, 50);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "GÜNCELLE";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtMail
+            // txtYeniİlce
             // 
-            this.txtMail.Location = new System.Drawing.Point(199, 233);
-            this.txtMail.Multiline = true;
-            this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(136, 32);
-            this.txtMail.TabIndex = 10;
+            this.txtYeniİlce.BackColor = System.Drawing.Color.White;
+            this.txtYeniİlce.ForeColor = System.Drawing.Color.Black;
+            this.txtYeniİlce.Location = new System.Drawing.Point(187, 144);
+            this.txtYeniİlce.Multiline = true;
+            this.txtYeniİlce.Name = "txtYeniİlce";
+            this.txtYeniİlce.Size = new System.Drawing.Size(133, 33);
+            this.txtYeniİlce.TabIndex = 21;
             // 
             // txtKullaniciAdi
             // 
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(199, 167);
+            this.txtKullaniciAdi.BackColor = System.Drawing.Color.White;
+            this.txtKullaniciAdi.ForeColor = System.Drawing.Color.Black;
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(187, 82);
             this.txtKullaniciAdi.Multiline = true;
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
-            this.txtKullaniciAdi.Size = new System.Drawing.Size(136, 35);
-            this.txtKullaniciAdi.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 243);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 22);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "E-Mail:";
+            this.txtKullaniciAdi.Size = new System.Drawing.Size(133, 33);
+            this.txtKullaniciAdi.TabIndex = 20;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.SandyBrown;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 180);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(39, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 22);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Kullanıcı Adı:";
+            this.label2.Size = new System.Drawing.Size(102, 24);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "YENİ İLÇE";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 69);
+            this.label1.BackColor = System.Drawing.Color.SandyBrown;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(8, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 31);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "ŞİFREMİ GÜNCELLE";
+            this.label1.Size = new System.Drawing.Size(151, 24);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "KULLANICI ADI";
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.SandyBrown;
             this.button2.BackgroundImage = global::GDApplication.Properties.Resources.çarpı;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(372, 24);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(363, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 42);
-            this.button2.TabIndex = 12;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Size = new System.Drawing.Size(39, 37);
+            this.button2.TabIndex = 23;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // frmSifreGuncelleme
+            // frmİlceGuncelle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GDApplication.Properties.Resources.sifrearka;
+            this.BackgroundImage = global::GDApplication.Properties.Resources.Gazeteler;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(446, 379);
+            this.ClientSize = new System.Drawing.Size(411, 282);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtMail);
+            this.Controls.Add(this.txtYeniİlce);
             this.Controls.Add(this.txtKullaniciAdi);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmSifreGuncelleme";
-            this.Text = "frmSifreGuncelleme";
+            this.Name = "frmİlceGuncelle";
+            this.Text = "frmİlceGuncelle";
+            this.Load += new System.EventHandler(this.frmİlceGuncelle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,12 +134,11 @@ namespace GDApplication
 
         #endregion
 
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtMail;
+        private System.Windows.Forms.TextBox txtYeniİlce;
         private System.Windows.Forms.TextBox txtKullaniciAdi;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
     }
 }
