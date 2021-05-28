@@ -10,27 +10,21 @@ using System.Windows.Forms;
 
 namespace GDApplication
 {
-    public partial class AboneGörevSecim : Form
+    public partial class frmAdminGörevSeçim : Form
     {
-        public AboneGörevSecim()
+        public frmAdminGörevSeçim()
         {
             InitializeComponent();
         }
 
-        private void AboneGörevSecim_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void frmAdminGörevSeçim_Load(object sender, EventArgs e)
         {
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmAdminGazeteDüzenle düzenle = new frmAdminGazeteDüzenle();
-            düzenle.ShowDialog();
+
         }
     }
 }

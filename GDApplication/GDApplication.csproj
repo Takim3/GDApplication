@@ -82,6 +82,24 @@
     <Compile Include="frmAboneKayit.Designer.cs">
       <DependentUpon>frmAboneKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAdminGazeteDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminGazeteDüzenle.Designer.cs">
+      <DependentUpon>frmAdminGazeteDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminGörevSeçim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminGörevSeçim.Designer.cs">
+      <DependentUpon>frmAdminGörevSeçim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminSatisRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminSatisRaporu.Designer.cs">
+      <DependentUpon>frmAdminSatisRaporu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAdresGuncelleme.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +192,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAboneKayit.resx">
       <DependentUpon>frmAboneKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminGazeteDüzenle.resx">
+      <DependentUpon>frmAdminGazeteDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminGörevSeçim.resx">
+      <DependentUpon>frmAdminGörevSeçim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminSatisRaporu.resx">
+      <DependentUpon>frmAdminSatisRaporu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdresGuncelleme.resx">
       <DependentUpon>frmAdresGuncelleme.cs</DependentUpon>
