@@ -16,7 +16,7 @@ namespace GDApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AnasayfaForm());
+            Application.Run(new frmAdminGörevSeçim());
             // deneme güncelleme
         }
     }

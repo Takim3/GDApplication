@@ -33,7 +33,7 @@ namespace GDApplication
         private void GazeteDüzenle()
         {
             baglanti.Open();
-            sqlDataAdapter adtr = new sqlDataAdapter("select *from GazeteDergi", baglanti);
+            SqlDataAdapter adtr = new SqlDataAdapter("select *from GazeteDergi", baglanti);
             adtr.Fill(dataSet, "GazeteDergi");
             dataGridView1.DataSource = dataSet.Tables["GazeteDergi"];
             baglanti.Close();
@@ -62,7 +62,7 @@ namespace GDApplication
         private void button2_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("delete from gazeteDergi where gazeteDergiAd='" + dataGridView1.CurrentRow.Cells["gazeteDergiAd"].ToString()+"'",baglanti);
+            SqlCommand komut = new SqlCommand("delete from gazeteDergi where gazeteDergiAd='" + dataGridView1.CurrentRow.Cells["gazeteDergiAd"].Value.ToString()+"'",baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
             dataSet.Tables["gazeteDergi"].Clear();
@@ -95,6 +95,7 @@ namespace GDApplication
             komut.ExecuteNonQuery();
             baglanti.Close();
             dataSet.Tables["gazeteDergi"].Clear();
+            GazeteDüzenle();
             MessageBox.Show("Güncelleme yapıldı.");
             foreach(Control item in this.Controls)
             {
