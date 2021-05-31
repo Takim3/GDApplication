@@ -28,5 +28,10 @@ namespace GDApplication
             frmMakbuz makbuz = new frmMakbuz();
             makbuz.ShowDialog();
         }
+
+        private void frmAboneGorevEkrani_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

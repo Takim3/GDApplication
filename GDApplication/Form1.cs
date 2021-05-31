@@ -28,5 +28,10 @@ namespace GDApplication
             AboneGirisForm ekle = new AboneGirisForm();
             ekle.ShowDialog();
         }
+
+        private void AnasayfaForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

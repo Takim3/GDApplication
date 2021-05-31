@@ -17,7 +17,7 @@ namespace GDApplication
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-9IQ5NO3T;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp;Integrated Security=True");
         DataSet dataSet = new DataSet();
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

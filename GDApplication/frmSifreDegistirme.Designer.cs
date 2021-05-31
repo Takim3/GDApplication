@@ -45,9 +45,9 @@ namespace GDApplication
             this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label1.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(42, 102);
+            this.label1.Location = new System.Drawing.Point(47, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 24);
+            this.label1.Size = new System.Drawing.Size(185, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "KULLANICI ADI";
             // 
@@ -58,35 +58,38 @@ namespace GDApplication
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(77, 166);
+            this.label2.Location = new System.Drawing.Point(87, 208);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 24);
+            this.label2.Size = new System.Drawing.Size(142, 30);
             this.label2.TabIndex = 1;
             this.label2.Text = "YENİ ŞİFRE";
             // 
             // txtKullaniciAdi
             // 
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(231, 93);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(260, 116);
+            this.txtKullaniciAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKullaniciAdi.Multiline = true;
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
-            this.txtKullaniciAdi.Size = new System.Drawing.Size(133, 33);
+            this.txtKullaniciAdi.Size = new System.Drawing.Size(149, 40);
             this.txtKullaniciAdi.TabIndex = 2;
             // 
             // txtYeniSifre
             // 
-            this.txtYeniSifre.Location = new System.Drawing.Point(231, 155);
+            this.txtYeniSifre.Location = new System.Drawing.Point(260, 194);
+            this.txtYeniSifre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtYeniSifre.Multiline = true;
             this.txtYeniSifre.Name = "txtYeniSifre";
-            this.txtYeniSifre.Size = new System.Drawing.Size(133, 33);
+            this.txtYeniSifre.Size = new System.Drawing.Size(149, 40);
             this.txtYeniSifre.TabIndex = 3;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Maroon;
             this.button1.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(231, 215);
+            this.button1.Location = new System.Drawing.Point(260, 269);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 50);
+            this.button1.Size = new System.Drawing.Size(150, 62);
             this.button1.TabIndex = 4;
             this.button1.Text = "GÜNCELLE";
             this.button1.UseVisualStyleBackColor = false;
@@ -96,19 +99,20 @@ namespace GDApplication
             // 
             this.button2.BackgroundImage = global::GDApplication.Properties.Resources.çarpı;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(407, 23);
+            this.button2.Location = new System.Drawing.Point(458, 29);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(39, 37);
+            this.button2.Size = new System.Drawing.Size(44, 46);
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmSifreDegistir
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GDApplication.Properties.Resources.Gazeteler;
-            this.ClientSize = new System.Drawing.Size(483, 303);
+            this.ClientSize = new System.Drawing.Size(543, 379);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtYeniSifre);
@@ -116,8 +120,10 @@ namespace GDApplication
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmSifreDegistir";
             this.Text = "frmKayitDuzenle";
+            this.Load += new System.EventHandler(this.frmSifreDegistir_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

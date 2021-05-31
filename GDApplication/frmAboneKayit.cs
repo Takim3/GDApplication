@@ -26,11 +26,12 @@ namespace GDApplication
         private void btnEkle_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into YeniAbone(kullaniciAdi,GazeteDergiAd) values(@kullaniciAdi,@GazeteDergiAd)", baglanti);
-            komut.Parameters.AddWithValue("(@kullaniciAdi", txtKullaniciAd.Text);
-            komut.Parameters.AddWithValue("@GazeteDergiAd", txtGDad.Text);
+            SqlCommand komut = new SqlCommand("insert into YeniAbone(kullaniciAdi,GazeteDergiAd)values(@kullaniciAdi,@GazeteDergiAd)",baglanti);
+            komut.Parameters.AddWithValue("(@kullaniciAdi",txtKullaniciAd.Text);
+            komut.Parameters.AddWithValue("@GazeteDergiAd",txtGDad.Text);
+        
+            baglanti.Close();
 
-            
             MessageBox.Show("Yeni Kayıt Oluşturuldu.");
             foreach (Control item in this.Controls)
             {
@@ -45,7 +46,7 @@ namespace GDApplication
             */
 
 
-            baglanti.Close();
+
         }
     }
 }

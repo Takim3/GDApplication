@@ -52,5 +52,10 @@ namespace GDApplication
                 }
             }
         }
+
+        private void frmTelGuncelleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

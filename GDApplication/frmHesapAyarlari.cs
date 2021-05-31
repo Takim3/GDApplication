@@ -34,5 +34,10 @@ namespace GDApplication
             frmKayıtDuzenleSecimEkrani frmKayıtDuzenleSecimEkranii = new frmKayıtDuzenleSecimEkrani();
             frmKayıtDuzenleSecimEkranii.ShowDialog();
         }
+
+        private void frmHesapAyarlari_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

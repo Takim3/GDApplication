@@ -52,5 +52,10 @@ namespace GDApplication
         {
             Application.Exit();
         }
+
+        private void frmSifreDegistir_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

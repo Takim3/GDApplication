@@ -254,6 +254,11 @@ namespace GDApplication
         {
 
         }
+
+        private void KayıtOlForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

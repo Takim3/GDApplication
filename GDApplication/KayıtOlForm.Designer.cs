@@ -281,6 +281,7 @@ namespace GDApplication
             this.Name = "KayıtOlForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "KayıtOlForm";
+            this.Load += new System.EventHandler(this.KayıtOlForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

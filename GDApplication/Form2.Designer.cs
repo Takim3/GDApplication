@@ -78,6 +78,7 @@ namespace GDApplication
             this.Controls.Add(this.btnHesapAyarlari);
             this.Name = "frmAboneGorevEkrani";
             this.Text = "Abone Görev Ekranı";
+            this.Load += new System.EventHandler(this.frmAboneGorevEkrani_Load);
             this.ResumeLayout(false);
 
         }

@@ -13,8 +13,8 @@ namespace GDApplication
 {
     public partial class AdminGirisForm : Form
     {
-       SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-9IQ5NO3T;Initial Catalog=GazeteDergiApp; " 
-            +"Integrated Security=TRUE");
+       SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp; "
+            + "Integrated Security=TRUE");
 
         public AdminGirisForm()
         {
@@ -92,11 +92,18 @@ namespace GDApplication
             if (isThere)
             {
                 MessageBox.Show("Başarılı Giriş","PROGRAM:");
+                frmAdminGörevSeçim frmAdminGörevSeçim = new frmAdminGörevSeçim();
+                frmAdminGörevSeçim.ShowDialog();
             }
             else
             {
                 MessageBox.Show("Kullanıcı Adı veya Şifre Yanlış!!", "PROGRAM:");
             }
+        }
+
+        private void AdminGirisForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

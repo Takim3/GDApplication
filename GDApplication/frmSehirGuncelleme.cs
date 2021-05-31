@@ -52,5 +52,10 @@ namespace GDApplication
                 }
             }
         }
+
+        private void frmSehirGuncelleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

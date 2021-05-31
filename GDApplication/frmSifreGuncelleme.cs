@@ -75,6 +75,11 @@ namespace GDApplication
         {
             Application.Exit();
         }
+
+        private void frmSifreGuncelleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -52,5 +52,10 @@ namespace GDApplication
                 }
             }
         }
+
+        private void frmAdresGuncelleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

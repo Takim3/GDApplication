@@ -52,5 +52,10 @@ namespace GDApplication
         {
             Application.Exit();
         }
+
+        private void frmEmailGuncelleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
