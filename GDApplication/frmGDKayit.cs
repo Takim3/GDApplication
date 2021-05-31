@@ -16,7 +16,7 @@ namespace GDApplication
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+        SqlBaglantisi baglan = new SqlBaglantisi();
 
         private void frmGDKayit_Load(object sender, EventArgs e)
         {
@@ -25,15 +25,13 @@ namespace GDApplication
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into GazeteDergi(GazeteDergiAd,YayınEvi,Aciklama,Fiyat) values(@GazeteDergiAd,@YayınEvi,@Aciklama,@Fiyat)",baglanti);
+            SqlCommand komut = new SqlCommand("insert into GazeteDergi(GazeteDergiAd,Yayınevi,Aciklama,Fiyat) values(@GazeteDergiAd,@Yayınevi,@Aciklama,@Fiyat)",baglan.baglan());
             komut.Parameters.AddWithValue("@GazeteDergiAd", txtAd.Text);
-            komut.Parameters.AddWithValue("@YayınEvi", txtYayinevi.Text);
+            komut.Parameters.AddWithValue("@Yayınevi", txtYayinevi.Text);
             komut.Parameters.AddWithValue("@Aciklama", txtAciklama.Text);
             komut.Parameters.AddWithValue("@Fiyat", txtFiyat.Text);
-           
-            baglanti.Close();
-            
+            komut.ExecuteNonQuery();
+            baglan.baglan().Close();
             MessageBox.Show("Yeni Kayıt Oluşturuldu.");
             foreach(Control item in this.Controls)
             {

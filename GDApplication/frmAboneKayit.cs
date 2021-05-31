@@ -13,11 +13,12 @@ namespace GDApplication
 {
     public partial class frmAboneKayit : Form
     {
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-PS76OG9;Initial Catalog=GazeteDergiApp;Integrated Security=True");
         public frmAboneKayit()
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+      
         private void frmAboneKayit_Load(object sender, EventArgs e)
         {
             txtTarih.Text = DateTime.Now.ToLongDateString();
@@ -26,11 +27,10 @@ namespace GDApplication
         private void btnEkle_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into YeniAbone(kullaniciAdi,GazeteDergiAd)values(@kullaniciAdi,@GazeteDergiAd)",baglanti);
-            komut.Parameters.AddWithValue("(@kullaniciAdi",txtKullaniciAd.Text);
-            komut.Parameters.AddWithValue("@GazeteDergiAd",txtGDad.Text);
-        
-            baglanti.Close();
+            SqlCommand komut = new SqlCommand("insert into YeniAbone(kullaniciAdi,GazeteDergiAd) values(@kullaniciAdi,@GazeteDergiAd)", baglanti);
+            komut.Parameters.AddWithValue("(@kullaniciAdi", txtKullaniciAd.Text);
+            komut.Parameters.AddWithValue("@GazeteDergiAd", txtGDad.Text);
+            komut.ExecuteNonQuery();
 
             MessageBox.Show("Yeni Kayıt Oluşturuldu.");
             foreach (Control item in this.Controls)
@@ -46,7 +46,7 @@ namespace GDApplication
             */
 
 
-
+            baglanti.Close();
         }
     }
 }
