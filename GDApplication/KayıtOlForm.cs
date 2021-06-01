@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 
 namespace GDApplication
 {
-    //SENİ SEVİYORUUUUUUUUM bende lov yuuuuuuuu <3
+
     public partial class KayıtOlForm : Form
     {
         SqlConnection baglanti = AboneGirisForm.baglanti;
