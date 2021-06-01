@@ -17,7 +17,7 @@ namespace GDApplication
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=GazeteDergiApp;Integrated Security=True");
         DataSet daset = new DataSet();
 
         private void label1_Click(object sender, EventArgs e)

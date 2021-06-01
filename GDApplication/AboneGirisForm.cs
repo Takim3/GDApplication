@@ -13,7 +13,7 @@ namespace GDApplication
 {
     public partial class AboneGirisForm : Form
     {
-        public static SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp; "
+        public static SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=GazeteDergiApp; "
                     + "Integrated Security=TRUE");
         public AboneGirisForm()
         {

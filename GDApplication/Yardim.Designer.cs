@@ -56,6 +56,7 @@ namespace GDApplication
             this.Controls.Add(this.label1);
             this.Name = "Yardim";
             this.Text = "Yardim";
+            this.Load += new System.EventHandler(this.Yardim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -17,7 +17,7 @@ namespace GDApplication
         {
             InitializeComponent();
         }
-        public static SqlConnection baglanti = new SqlConnection("Data Source=LAPTOP-1K5IIMK5;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+        public static SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=GazeteDergiApp;Integrated Security=True");
         private void btnKayitOl_Click(object sender, EventArgs e)
         {
             frmAboneKayit AboneKayit = new frmAboneKayit();

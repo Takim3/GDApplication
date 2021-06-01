@@ -21,5 +21,10 @@ namespace GDApplication
         {
 
         }
+
+        private void Yardim_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
