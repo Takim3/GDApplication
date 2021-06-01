@@ -27,22 +27,22 @@ namespace GDApplication
 
         private void frmMakbuz_Load(object sender, EventArgs e)
         {
-            KayitGoster();
+           // KayitGoster();
         }
 
-        private void KayitGoster()
-        {
-            baglanti.Open();
-            SqlDataAdapter dap = new SqlDataAdapter("SELECT *FROM makbuz",baglanti);
-            dap.Fill(daset,"makbuz");
-            dataGridView1.DataSource = daset.Tables["makbuz"];
-            baglanti.Close();
-        }
+        //private void KayitGoster()
+        //{
+        //    baglanti.Open();
+        //    SqlDataAdapter dap = new SqlDataAdapter("SELECT *FROM makbuzSon",baglanti);
+        //    dap.Fill(daset,"makbuzSon");
+        //    dataGridView1.DataSource = daset.Tables["makbuzSon"];
+        //    baglanti.Close();
+        //}
         private void txtTarih_TextChanged(object sender, EventArgs e)
         {
             DataTable tablo = new DataTable();
             baglanti.Open();
-            SqlDataAdapter dap = new SqlDataAdapter("SELECT *FROM makbuz where kullaniciAdi like '%" + txtTarih.Text + "%'",baglanti);
+            SqlDataAdapter dap = new SqlDataAdapter("SELECT *FROM makbuzSon where kullaniciAdi like '%" + txtTarih.Text + "%'",baglanti);
             dap.Fill(tablo);
             dataGridView1.DataSource = tablo;
             baglanti.Close();

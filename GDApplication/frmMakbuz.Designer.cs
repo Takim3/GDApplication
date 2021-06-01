@@ -30,7 +30,6 @@ namespace GDApplication
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMakbuz));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -94,7 +93,7 @@ namespace GDApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
             this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtTarih);
@@ -102,7 +101,7 @@ namespace GDApplication
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmMakbuz";
-            this.Text = "frmMakbuz";
+            this.Text = "Makbuz";
             this.Load += new System.EventHandler(this.frmMakbuz_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

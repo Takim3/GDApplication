@@ -277,7 +277,7 @@ namespace GDApplication
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "KayıtOlForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

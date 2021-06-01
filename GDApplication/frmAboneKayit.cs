@@ -54,10 +54,10 @@ namespace GDApplication
 
         }
 
-        private void btnEkle_Click(object sender, EventArgs e)
+      /*  private void btnEkle_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into YeniAbone(kullaniciAdi,GazeteDergiAd) values('" + txtKullaniciAd.Text + "','" + comboBoxGDadi.Text + "')", baglanti);
+            SqlCommand komut = new SqlCommand("insert into Satis(kullaniciAdi,GazeteDergiAd,tarih) values('" + txtKullaniciAd.Text + "','" + comboBoxGDadi.Text + "','" + txtTarih.Text + "')", baglanti);
             //komut.Parameters.AddWithValue("@kullaniciAdi", txtKullaniciAd.Text);
             //komut.Parameters.AddWithValue("@GazeteDergiAd", comboBoxGDadi.Text);
             komut.ExecuteNonQuery();
@@ -70,14 +70,45 @@ namespace GDApplication
                 {
                     item.Text = "";
                 }
-            }
+            }*/
 
             /*frmMakbuz makbuz = new frmMakbuz();
             makbuz.ShowDialog();
             */
+            private void btnEkle_Click(object sender, EventArgs e)
+            {
+                DateTime trh = DateTime.Today;
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("insert into Satis(GazeteDergiAd,tarih,kullaniciAdi) values(@GazeteDergiAd,getDate(),@kullaniciAdi)", baglanti);
+                komut.Parameters.AddWithValue("@kullaniciAdi", txtKullaniciAd.Text);
+                komut.Parameters.AddWithValue("@GazeteDergiAd", comboBoxGDadi.Text);
+                komut.Parameters.AddWithValue("@tarih", txtTarih.Text);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                MessageBox.Show("Yeni Kayıt Oluşturuldu.");
+                foreach (Control item in this.Controls)
+                {
+                    if (item is TextBox)
+                    {
+                        item.Text = "";
+                    }
+                }
 
 
-           
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

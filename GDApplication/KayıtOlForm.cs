@@ -245,9 +245,21 @@ namespace GDApplication
                 "values('"+textBox1.Text+ "','" + txtSifre.Text + "','"+txtAd.Text+ "','" + txtSoyad.Text + "'," +
                 "'" + txtEmail.Text + "','" + txtTcNo.Text + "','" + txtDogumTarihi.Text + "','" + txtSehir.Text + "'," +
                 "'" + txtIlce.Text + "','" + txtAdres.Text + "','" + txtTelNo.Text + "','" + comboBoxCinsiyet.Text + "')",baglanti);
-            komut.ExecuteNonQuery();
+            
+         
+
+            try
+            {
+                komut.ExecuteNonQuery();
+                MessageBox.Show("Kayıt Gerçekleşti...", "Program:");
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Kayıt Zaten Mevcut.");
+            }
+
+
             baglanti.Close();
-            MessageBox.Show("Kayıt Gerçekleşti...","Program:");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

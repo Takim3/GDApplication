@@ -12,7 +12,7 @@ namespace GDApplication
     {
         public SqlConnection baglan()
         {
-            SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-PS76OG9;Initial Catalog=GazeteDergiApp;Integrated Security=True");
+            SqlConnection baglanti = new SqlConnection("Data Source=.;Initial Catalog=GazeteDergiApp;Integrated Security=True");
             baglanti.Open();
             return baglanti;
         }

@@ -49,11 +49,11 @@ namespace GDApplication
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(293, 100);
+            this.dataGridView1.Location = new System.Drawing.Point(299, 100);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 480);
+            this.dataGridView1.Size = new System.Drawing.Size(753, 480);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -84,7 +84,7 @@ namespace GDApplication
             // 
             // isimtxt
             // 
-            this.isimtxt.Location = new System.Drawing.Point(155, 155);
+            this.isimtxt.Location = new System.Drawing.Point(160, 152);
             this.isimtxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.isimtxt.Name = "isimtxt";
             this.isimtxt.Size = new System.Drawing.Size(136, 26);
@@ -92,7 +92,7 @@ namespace GDApplication
             // 
             // yayinevitxt
             // 
-            this.yayinevitxt.Location = new System.Drawing.Point(155, 216);
+            this.yayinevitxt.Location = new System.Drawing.Point(160, 213);
             this.yayinevitxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.yayinevitxt.Name = "yayinevitxt";
             this.yayinevitxt.Size = new System.Drawing.Size(136, 26);
@@ -100,7 +100,7 @@ namespace GDApplication
             // 
             // aciklamatxt
             // 
-            this.aciklamatxt.Location = new System.Drawing.Point(155, 278);
+            this.aciklamatxt.Location = new System.Drawing.Point(160, 275);
             this.aciklamatxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.aciklamatxt.Name = "aciklamatxt";
             this.aciklamatxt.Size = new System.Drawing.Size(136, 26);
@@ -108,7 +108,7 @@ namespace GDApplication
             // 
             // fiyattxt
             // 
-            this.fiyattxt.Location = new System.Drawing.Point(155, 339);
+            this.fiyattxt.Location = new System.Drawing.Point(160, 336);
             this.fiyattxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.fiyattxt.Name = "fiyattxt";
             this.fiyattxt.Size = new System.Drawing.Size(136, 26);
@@ -204,7 +204,7 @@ namespace GDApplication
             this.BackColor = System.Drawing.Color.Thistle;
             this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1023, 594);
+            this.ClientSize = new System.Drawing.Size(1065, 594);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);

@@ -163,7 +163,7 @@ namespace GDApplication
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAboneKayit";
-            this.Text = "Abone Kayit";
+            this.Text = "Gazete Dergi Satış";
             this.Load += new System.EventHandler(this.frmAboneKayit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

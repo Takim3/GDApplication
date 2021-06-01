@@ -26,13 +26,28 @@ namespace GDApplication
         private void btnEkle_Click(object sender, EventArgs e)
         {
             SqlCommand komut = new SqlCommand("insert into GazeteDergi(GazeteDergiAd,Yayınevi,Aciklama,Fiyat) values(@GazeteDergiAd,@Yayınevi,@Aciklama,@Fiyat)",baglan.baglan());
+            
+
             komut.Parameters.AddWithValue("@GazeteDergiAd", txtAd.Text);
             komut.Parameters.AddWithValue("@Yayınevi", txtYayinevi.Text);
             komut.Parameters.AddWithValue("@Aciklama", txtAciklama.Text);
             komut.Parameters.AddWithValue("@Fiyat", txtFiyat.Text);
-            komut.ExecuteNonQuery();
+
+
+
+            try
+            {
+                komut.ExecuteNonQuery();
+                MessageBox.Show("Yeni Kayıt Oluşturuldu.");
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Kayıt Zaten Mevcut.");
+            }
+
+
             baglan.baglan().Close();
-            MessageBox.Show("Yeni Kayıt Oluşturuldu.");
+         
             foreach(Control item in this.Controls)
             {
                 if(item is TextBox)

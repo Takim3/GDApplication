@@ -97,9 +97,9 @@ namespace GDApplication
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            KayıtOlForm kayıtOlForm = new KayıtOlForm();
-            kayıtOlForm.Show();
+          //  this.Hide();
+            KayıtOlForm KayıtOlForm = new KayıtOlForm();
+            KayıtOlForm.ShowDialog();
 
         }
 

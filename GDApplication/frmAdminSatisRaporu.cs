@@ -22,9 +22,9 @@ namespace GDApplication
         private void SatisListele()
         {
             baglanti.Open();
-           
-            SqlDataAdapter adtr = new SqlDataAdapter("select s.fatura_id as 'Fatura Numarası' ,TRIM(a.ad) + ' '+TRIM( a.soyad) as 'Müşteri Adı Soyadı', g.gazeteDergiAd as 'Gazete/Dergi İsmi',g.fiyat as 'Ücret',g.aciklama as 'Açıklama',s.tarih as 'Tarih' from satis s join GazeteDergi g on g.gazeteDergiId =s.gazeteDergiId " +
-               "join AboneBilgileri a on s.aboneId=a.aboneId  ", baglanti);
+
+            SqlDataAdapter adtr = new SqlDataAdapter("select s.fatura_id as 'Fatura Numarası' ,TRIM(a.ad) + ' '+TRIM( a.soyad) as 'Müşteri Adı Soyadı', g.gazeteDergiAd as 'Gazete/Dergi İsmi',g.fiyat as 'Ücret',g.aciklama as 'Açıklama',s.tarih as 'Tarih' from satis s join GazeteDergi g on g.gazeteDergiAd =s.gazeteDergiAd " +
+               "join AboneBilgileri a on s.kullaniciAdi=a.kullaniciAdi  ", baglanti);
             adtr.Fill(dataSet, "satis,aboneBilgileri,Gazetedergi");
             dataGridView1.DataSource = dataSet.Tables["satis,aboneBilgileri,Gazetedergi"];
             baglanti.Close();
@@ -34,7 +34,7 @@ namespace GDApplication
             try
             {
                 baglanti.Open();
-                SqlCommand komut = new SqlCommand("select sum(fiyat) from gazeteDergi", baglanti);
+                SqlCommand komut = new SqlCommand("select sum(g.fiyat) from satis s join GazeteDergi g on g.gazeteDergiAd =s.gazeteDergiAd ", baglanti);
                 lblGenelToplam.Text = komut.ExecuteScalar() + "TL";
                 baglanti.Close();
             }
@@ -49,7 +49,7 @@ namespace GDApplication
             try
             {
                 baglanti.Open();
-                SqlCommand komut = new SqlCommand("select max(fatura_id) from satis", baglanti);
+                SqlCommand komut = new SqlCommand("select count(fatura_id) from satis", baglanti);
                 lblSatisSayısı.Text = komut.ExecuteScalar().ToString();
                 baglanti.Close();
             }
@@ -57,9 +57,9 @@ namespace GDApplication
             {
 
             }
+
+
         }
-
-
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -91,10 +91,12 @@ namespace GDApplication
         {
             DataTable tablo = new DataTable();
             baglanti.Open();
-            SqlDataAdapter adapter = new SqlDataAdapter("select *from satis where fatura_id like '%" + faturaAra.Text + "%'", baglanti);
+            SqlDataAdapter adapter = new SqlDataAdapter("select s.fatura_id as 'Fatura Numarası' ,TRIM(a.ad) + ' '+TRIM( a.soyad) as 'Müşteri Adı Soyadı', g.gazeteDergiAd as 'Gazete/Dergi İsmi',g.fiyat as 'Ücret',g.aciklama as 'Açıklama',s.tarih as 'Tarih' from satis s join GazeteDergi g on g.gazeteDergiAd =s.gazeteDergiAd " +
+               "join AboneBilgileri a on s.kullaniciAdi=a.kullaniciAdi where fatura_id like '%" + faturaAra.Text + "%'", baglanti);
             adapter.Fill(tablo);
             dataGridView1.DataSource = tablo;
             baglanti.Close();
         }
     }
 }
+
