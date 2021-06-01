@@ -69,6 +69,7 @@ namespace GDApplication
             this.btnYardim.TabIndex = 2;
             this.btnYardim.Text = "Yardım";
             this.btnYardim.UseVisualStyleBackColor = false;
+            this.btnYardim.Click += new System.EventHandler(this.btnYardim_Click);
             // 
             // frmAboneGorevEkrani
             // 

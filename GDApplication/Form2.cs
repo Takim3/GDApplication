@@ -33,5 +33,12 @@ namespace GDApplication
         {
 
         }
+
+        private void btnYardim_Click(object sender, EventArgs e)
+        {
+            Yardim yardim = new Yardim();
+            yardim.ShowDialog();
+
+        }
     }
 }
