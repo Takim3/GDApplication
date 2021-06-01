@@ -37,10 +37,11 @@ namespace GDApplication
             // 
             // btnHesapAyarlari
             // 
-            this.btnHesapAyarlari.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnHesapAyarlari.Location = new System.Drawing.Point(121, 97);
+            this.btnHesapAyarlari.BackColor = System.Drawing.Color.Gray;
+            this.btnHesapAyarlari.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHesapAyarlari.Location = new System.Drawing.Point(418, 119);
             this.btnHesapAyarlari.Name = "btnHesapAyarlari";
-            this.btnHesapAyarlari.Size = new System.Drawing.Size(149, 59);
+            this.btnHesapAyarlari.Size = new System.Drawing.Size(173, 95);
             this.btnHesapAyarlari.TabIndex = 0;
             this.btnHesapAyarlari.Text = "Hesap Ayarları";
             this.btnHesapAyarlari.UseVisualStyleBackColor = false;
@@ -48,10 +49,11 @@ namespace GDApplication
             // 
             // btnMakbuzGoruntule
             // 
-            this.btnMakbuzGoruntule.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnMakbuzGoruntule.Location = new System.Drawing.Point(121, 182);
+            this.btnMakbuzGoruntule.BackColor = System.Drawing.Color.Gray;
+            this.btnMakbuzGoruntule.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnMakbuzGoruntule.Location = new System.Drawing.Point(418, 244);
             this.btnMakbuzGoruntule.Name = "btnMakbuzGoruntule";
-            this.btnMakbuzGoruntule.Size = new System.Drawing.Size(149, 54);
+            this.btnMakbuzGoruntule.Size = new System.Drawing.Size(173, 90);
             this.btnMakbuzGoruntule.TabIndex = 1;
             this.btnMakbuzGoruntule.Text = "Makbuz Görüntüle";
             this.btnMakbuzGoruntule.UseVisualStyleBackColor = false;
@@ -59,10 +61,11 @@ namespace GDApplication
             // 
             // btnYardim
             // 
-            this.btnYardim.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnYardim.Location = new System.Drawing.Point(121, 264);
+            this.btnYardim.BackColor = System.Drawing.Color.Gray;
+            this.btnYardim.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnYardim.Location = new System.Drawing.Point(418, 358);
             this.btnYardim.Name = "btnYardim";
-            this.btnYardim.Size = new System.Drawing.Size(149, 50);
+            this.btnYardim.Size = new System.Drawing.Size(173, 86);
             this.btnYardim.TabIndex = 2;
             this.btnYardim.Text = "Yardım";
             this.btnYardim.UseVisualStyleBackColor = false;
@@ -72,10 +75,13 @@ namespace GDApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(416, 424);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.btnYardim);
             this.Controls.Add(this.btnMakbuzGoruntule);
             this.Controls.Add(this.btnHesapAyarlari);
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAboneGorevEkrani";
             this.Text = "Abone Görev Ekranı";
             this.Load += new System.EventHandler(this.frmAboneGorevEkrani_Load);

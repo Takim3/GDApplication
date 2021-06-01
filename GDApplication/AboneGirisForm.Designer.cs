@@ -35,7 +35,6 @@ namespace GDApplication
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -73,20 +72,6 @@ namespace GDApplication
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.BackgroundImage = global::GDApplication.Properties.Resources.çarpı;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(705, 26);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 62);
-            this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::GDApplication.Properties.Resources.abone;
@@ -101,12 +86,12 @@ namespace GDApplication
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button3.Font = new System.Drawing.Font("MV Boli", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(296, 296);
+            this.button3.Location = new System.Drawing.Point(421, 349);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(178, 60);
+            this.button3.Size = new System.Drawing.Size(201, 65);
             this.button3.TabIndex = 23;
             this.button3.Text = "GİRİŞ";
             this.button3.UseVisualStyleBackColor = false;
@@ -116,11 +101,11 @@ namespace GDApplication
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(300, 130);
+            this.label1.Location = new System.Drawing.Point(416, 164);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 29);
+            this.label1.Size = new System.Drawing.Size(167, 26);
             this.label1.TabIndex = 22;
             this.label1.Text = "ABONE GİRİŞ";
             // 
@@ -129,7 +114,7 @@ namespace GDApplication
             this.txtSifre.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.txtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSifre.ForeColor = System.Drawing.Color.Silver;
-            this.txtSifre.Location = new System.Drawing.Point(296, 235);
+            this.txtSifre.Location = new System.Drawing.Point(387, 282);
             this.txtSifre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSifre.Multiline = true;
             this.txtSifre.Name = "txtSifre";
@@ -144,7 +129,7 @@ namespace GDApplication
             this.txtKullaniciAdi.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.txtKullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtKullaniciAdi.ForeColor = System.Drawing.Color.Silver;
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(296, 178);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(387, 216);
             this.txtKullaniciAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKullaniciAdi.Multiline = true;
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
@@ -161,7 +146,7 @@ namespace GDApplication
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.WindowFrame;
-            this.linkLabel1.Location = new System.Drawing.Point(494, 296);
+            this.linkLabel1.Location = new System.Drawing.Point(695, 394);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(70, 20);
             this.linkLabel1.TabIndex = 24;
@@ -175,7 +160,7 @@ namespace GDApplication
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkColor = System.Drawing.SystemColors.WindowFrame;
-            this.linkLabel2.Location = new System.Drawing.Point(494, 335);
+            this.linkLabel2.Location = new System.Drawing.Point(674, 359);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(139, 20);
             this.linkLabel2.TabIndex = 25;
@@ -189,7 +174,7 @@ namespace GDApplication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::GDApplication.Properties.Resources.loginn1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(785, 458);
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button3);
@@ -197,14 +182,13 @@ namespace GDApplication
             this.Controls.Add(this.txtSifre);
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AboneGirisForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AboneGirisForm";
+            this.Text = "Abone Giris";
             this.Load += new System.EventHandler(this.AboneGirisForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -218,7 +202,6 @@ namespace GDApplication
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;

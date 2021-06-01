@@ -39,12 +39,13 @@ namespace GDApplication
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SandyBrown;
-            this.button1.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.BackColor = System.Drawing.Color.Gray;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(74, 111);
+            this.button1.Location = new System.Drawing.Point(156, 163);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 62);
+            this.button1.Size = new System.Drawing.Size(250, 78);
             this.button1.TabIndex = 0;
             this.button1.Text = "E-MAİL";
             this.button1.UseVisualStyleBackColor = false;
@@ -52,12 +53,13 @@ namespace GDApplication
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.SandyBrown;
-            this.button2.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.BackColor = System.Drawing.Color.Gray;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(74, 179);
+            this.button2.Location = new System.Drawing.Point(156, 248);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(222, 62);
+            this.button2.Size = new System.Drawing.Size(250, 78);
             this.button2.TabIndex = 1;
             this.button2.Text = "ŞEHİR";
             this.button2.UseVisualStyleBackColor = false;
@@ -65,12 +67,13 @@ namespace GDApplication
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.SandyBrown;
-            this.button3.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.BackColor = System.Drawing.Color.Gray;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(74, 247);
+            this.button3.Location = new System.Drawing.Point(361, 377);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(222, 62);
+            this.button3.Size = new System.Drawing.Size(250, 78);
             this.button3.TabIndex = 2;
             this.button3.Text = "İLÇE";
             this.button3.UseVisualStyleBackColor = false;
@@ -78,12 +81,13 @@ namespace GDApplication
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.SandyBrown;
-            this.button4.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.BackColor = System.Drawing.Color.Gray;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(74, 315);
+            this.button4.Location = new System.Drawing.Point(550, 163);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(222, 62);
+            this.button4.Size = new System.Drawing.Size(250, 78);
             this.button4.TabIndex = 3;
             this.button4.Text = "ADRES";
             this.button4.UseVisualStyleBackColor = false;
@@ -91,12 +95,13 @@ namespace GDApplication
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.SandyBrown;
-            this.button5.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.BackColor = System.Drawing.Color.Gray;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(74, 383);
+            this.button5.Location = new System.Drawing.Point(550, 248);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(222, 62);
+            this.button5.Size = new System.Drawing.Size(250, 78);
             this.button5.TabIndex = 4;
             this.button5.Text = "TELEFON NUMARASI";
             this.button5.UseVisualStyleBackColor = false;
@@ -105,31 +110,32 @@ namespace GDApplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.SandyBrown;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(21, 72);
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(232, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(318, 22);
+            this.label1.Size = new System.Drawing.Size(513, 32);
             this.label1.TabIndex = 5;
             this.label1.Text = "GÜNCELLENECEK BİLGİYİ SEÇİNİZ";
             // 
             // frmKayıtDuzenleSecimEkrani
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GDApplication.Properties.Resources.Gazeteler;
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(374, 505);
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmKayıtDuzenleSecimEkrani";
-            this.Text = "frmKayıtDuzenle";
+            this.Text = "Kayıt Duzenle";
             this.Load += new System.EventHandler(this.frmKayıtDuzenleSecimEkrani_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

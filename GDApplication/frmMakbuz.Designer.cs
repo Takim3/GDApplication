@@ -48,8 +48,10 @@ namespace GDApplication
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(348, 31);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(352, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 29);
             this.label1.TabIndex = 2;
@@ -59,8 +61,10 @@ namespace GDApplication
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(77, 87);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(75, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(127, 22);
             this.label2.TabIndex = 3;
@@ -68,7 +72,7 @@ namespace GDApplication
             // 
             // txtTarih
             // 
-            this.txtTarih.Location = new System.Drawing.Point(219, 83);
+            this.txtTarih.Location = new System.Drawing.Point(217, 110);
             this.txtTarih.Name = "txtTarih";
             this.txtTarih.Size = new System.Drawing.Size(152, 26);
             this.txtTarih.TabIndex = 4;
@@ -78,7 +82,7 @@ namespace GDApplication
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(81, 135);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 169);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
@@ -91,11 +95,12 @@ namespace GDApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1100, 499);
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtTarih);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmMakbuz";
             this.Text = "frmMakbuz";
             this.Load += new System.EventHandler(this.frmMakbuz_Load);

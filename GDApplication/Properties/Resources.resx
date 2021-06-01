@@ -124,17 +124,20 @@
   <data name="LOGİN PAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGİN PAGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="loginn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="login page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login page.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gazeteler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gazeteler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sifrearka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sifrearka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ayarlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ayarlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="loginn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loginn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Gazeteler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gazeteler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Admin Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Admin Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,7 +160,7 @@
   <data name="newspaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newspaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sifrearka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sifrearka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gazete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gazete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

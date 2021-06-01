@@ -29,7 +29,6 @@ namespace GDApplication
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtYeniEmail = new System.Windows.Forms.TextBox();
             this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
@@ -37,26 +36,12 @@ namespace GDApplication
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.SandyBrown;
-            this.button2.BackgroundImage = global::GDApplication.Properties.Resources.çarpı;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(413, 14);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(44, 46);
-            this.button2.TabIndex = 11;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SandyBrown;
+            this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("MV Boli", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(215, 254);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(516, 309);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 62);
@@ -69,7 +54,7 @@ namespace GDApplication
             // 
             this.txtYeniEmail.BackColor = System.Drawing.Color.White;
             this.txtYeniEmail.ForeColor = System.Drawing.Color.Black;
-            this.txtYeniEmail.Location = new System.Drawing.Point(215, 179);
+            this.txtYeniEmail.Location = new System.Drawing.Point(516, 234);
             this.txtYeniEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtYeniEmail.Multiline = true;
             this.txtYeniEmail.Name = "txtYeniEmail";
@@ -80,7 +65,7 @@ namespace GDApplication
             // 
             this.txtKullaniciAdi.BackColor = System.Drawing.Color.White;
             this.txtKullaniciAdi.ForeColor = System.Drawing.Color.Black;
-            this.txtKullaniciAdi.Location = new System.Drawing.Point(215, 101);
+            this.txtKullaniciAdi.Location = new System.Drawing.Point(516, 156);
             this.txtKullaniciAdi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtKullaniciAdi.Multiline = true;
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
@@ -90,11 +75,11 @@ namespace GDApplication
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.SandyBrown;
+            this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(37, 190);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(338, 245);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 30);
             this.label2.TabIndex = 7;
@@ -103,12 +88,12 @@ namespace GDApplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.SandyBrown;
+            this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label1.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(14, 112);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(315, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 30);
             this.label1.TabIndex = 6;
@@ -118,19 +103,18 @@ namespace GDApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GDApplication.Properties.Resources.Gazeteler;
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(495, 366);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtYeniEmail);
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmEmailGuncelleme";
-            this.Text = "frmEmailGuncelleme";
+            this.Text = "Email Guncelleme";
             this.Load += new System.EventHandler(this.frmEmailGuncelleme_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -138,8 +122,6 @@ namespace GDApplication
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtYeniEmail;
         private System.Windows.Forms.TextBox txtKullaniciAdi;

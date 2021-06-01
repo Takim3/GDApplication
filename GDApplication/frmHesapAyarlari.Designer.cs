@@ -29,7 +29,6 @@ namespace GDApplication
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHesapAyarlari));
             this.btnSifreDegistir = new System.Windows.Forms.Button();
             this.btnKayitDuzenle = new System.Windows.Forms.Button();
             this.btnKayitOl = new System.Windows.Forms.Button();
@@ -37,11 +36,13 @@ namespace GDApplication
             // 
             // btnSifreDegistir
             // 
-            this.btnSifreDegistir.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnSifreDegistir.Location = new System.Drawing.Point(135, 112);
+            this.btnSifreDegistir.BackColor = System.Drawing.Color.Gray;
+            this.btnSifreDegistir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSifreDegistir.ForeColor = System.Drawing.Color.White;
+            this.btnSifreDegistir.Location = new System.Drawing.Point(406, 136);
             this.btnSifreDegistir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSifreDegistir.Name = "btnSifreDegistir";
-            this.btnSifreDegistir.Size = new System.Drawing.Size(133, 56);
+            this.btnSifreDegistir.Size = new System.Drawing.Size(161, 101);
             this.btnSifreDegistir.TabIndex = 0;
             this.btnSifreDegistir.Text = "Şifre Değiştir";
             this.btnSifreDegistir.UseVisualStyleBackColor = false;
@@ -49,11 +50,13 @@ namespace GDApplication
             // 
             // btnKayitDuzenle
             // 
-            this.btnKayitDuzenle.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnKayitDuzenle.Location = new System.Drawing.Point(135, 192);
+            this.btnKayitDuzenle.BackColor = System.Drawing.Color.Gray;
+            this.btnKayitDuzenle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKayitDuzenle.ForeColor = System.Drawing.Color.White;
+            this.btnKayitDuzenle.Location = new System.Drawing.Point(405, 260);
             this.btnKayitDuzenle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKayitDuzenle.Name = "btnKayitDuzenle";
-            this.btnKayitDuzenle.Size = new System.Drawing.Size(133, 61);
+            this.btnKayitDuzenle.Size = new System.Drawing.Size(162, 89);
             this.btnKayitDuzenle.TabIndex = 1;
             this.btnKayitDuzenle.Text = "Kayıt Düzenle";
             this.btnKayitDuzenle.UseVisualStyleBackColor = false;
@@ -61,11 +64,13 @@ namespace GDApplication
             // 
             // btnKayitOl
             // 
-            this.btnKayitOl.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnKayitOl.Location = new System.Drawing.Point(135, 271);
+            this.btnKayitOl.BackColor = System.Drawing.Color.Gray;
+            this.btnKayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKayitOl.ForeColor = System.Drawing.Color.White;
+            this.btnKayitOl.Location = new System.Drawing.Point(405, 364);
             this.btnKayitOl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKayitOl.Name = "btnKayitOl";
-            this.btnKayitOl.Size = new System.Drawing.Size(133, 52);
+            this.btnKayitOl.Size = new System.Drawing.Size(162, 90);
             this.btnKayitOl.TabIndex = 2;
             this.btnKayitOl.Text = "Yeni Kayıt";
             this.btnKayitOl.UseVisualStyleBackColor = false;
@@ -75,11 +80,13 @@ namespace GDApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(435, 432);
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1023, 544);
             this.Controls.Add(this.btnKayitOl);
             this.Controls.Add(this.btnKayitDuzenle);
             this.Controls.Add(this.btnSifreDegistir);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmHesapAyarlari";
             this.Text = "Hesap Ayarlari";

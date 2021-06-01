@@ -49,9 +49,11 @@ namespace GDApplication
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(221, 122);
+            this.dataGridView1.Location = new System.Drawing.Point(293, 100);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(675, 312);
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.Size = new System.Drawing.Size(717, 480);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
@@ -59,56 +61,69 @@ namespace GDApplication
             // 
             // txtAdAra
             // 
-            this.txtAdAra.Location = new System.Drawing.Point(419, 80);
+            this.txtAdAra.Location = new System.Drawing.Point(278, 33);
+            this.txtAdAra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAdAra.Name = "txtAdAra";
-            this.txtAdAra.Size = new System.Drawing.Size(100, 20);
+            this.txtAdAra.Size = new System.Drawing.Size(148, 26);
             this.txtAdAra.TabIndex = 1;
             this.txtAdAra.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(267, 83);
+            this.label2.BackColor = System.Drawing.Color.Gray;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(14, 36);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 13);
+            this.label2.Size = new System.Drawing.Size(245, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Gazete/Dergi Adına Göre Ara";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // isimtxt
             // 
-            this.isimtxt.Location = new System.Drawing.Point(101, 122);
+            this.isimtxt.Location = new System.Drawing.Point(155, 155);
+            this.isimtxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.isimtxt.Name = "isimtxt";
-            this.isimtxt.Size = new System.Drawing.Size(100, 20);
+            this.isimtxt.Size = new System.Drawing.Size(136, 26);
             this.isimtxt.TabIndex = 4;
             // 
             // yayinevitxt
             // 
-            this.yayinevitxt.Location = new System.Drawing.Point(101, 162);
+            this.yayinevitxt.Location = new System.Drawing.Point(155, 216);
+            this.yayinevitxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.yayinevitxt.Name = "yayinevitxt";
-            this.yayinevitxt.Size = new System.Drawing.Size(100, 20);
+            this.yayinevitxt.Size = new System.Drawing.Size(136, 26);
             this.yayinevitxt.TabIndex = 5;
             // 
             // aciklamatxt
             // 
-            this.aciklamatxt.Location = new System.Drawing.Point(101, 202);
+            this.aciklamatxt.Location = new System.Drawing.Point(155, 278);
+            this.aciklamatxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.aciklamatxt.Name = "aciklamatxt";
-            this.aciklamatxt.Size = new System.Drawing.Size(100, 20);
+            this.aciklamatxt.Size = new System.Drawing.Size(136, 26);
             this.aciklamatxt.TabIndex = 6;
             // 
             // fiyattxt
             // 
-            this.fiyattxt.Location = new System.Drawing.Point(101, 242);
+            this.fiyattxt.Location = new System.Drawing.Point(155, 339);
+            this.fiyattxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.fiyattxt.Name = "fiyattxt";
-            this.fiyattxt.Size = new System.Drawing.Size(100, 20);
+            this.fiyattxt.Size = new System.Drawing.Size(136, 26);
             this.fiyattxt.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 125);
+            this.label3.BackColor = System.Drawing.Color.Gray;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(5, 155);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.Size = new System.Drawing.Size(147, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Gazete/Dergi Adı";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -116,9 +131,13 @@ namespace GDApplication
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 165);
+            this.label4.BackColor = System.Drawing.Color.Gray;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(5, 217);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 13);
+            this.label4.Size = new System.Drawing.Size(75, 20);
             this.label4.TabIndex = 9;
             this.label4.Text = "Yayınevi";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -126,9 +145,13 @@ namespace GDApplication
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 205);
+            this.label5.BackColor = System.Drawing.Color.Gray;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(5, 278);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.Size = new System.Drawing.Size(81, 20);
             this.label5.TabIndex = 10;
             this.label5.Text = "Açıklama";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -136,38 +159,52 @@ namespace GDApplication
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 245);
+            this.label6.BackColor = System.Drawing.Color.Gray;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(5, 340);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 13);
+            this.label6.Size = new System.Drawing.Size(48, 20);
             this.label6.TabIndex = 11;
             this.label6.Text = "Fiyat";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(126, 294);
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(166, 389);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(119, 39);
             this.button1.TabIndex = 12;
             this.button1.Text = "Güncelle";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(618, 77);
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(504, 27);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(112, 35);
             this.button2.TabIndex = 13;
             this.button2.Text = "Sil";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmAdminGazeteDüzenle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(908, 544);
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1023, 594);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
@@ -181,8 +218,10 @@ namespace GDApplication
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtAdAra);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmAdminGazeteDüzenle";
-            this.Text = "frmAdminGazeteDüzenle";
+            this.Text = "Admin Gazete Düzenle";
             this.Load += new System.EventHandler(this.frmAdminGazeteDüzenle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

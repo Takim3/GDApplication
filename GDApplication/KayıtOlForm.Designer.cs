@@ -48,10 +48,10 @@ namespace GDApplication
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.OrangeRed;
+            this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.Font = new System.Drawing.Font("MV Boli", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(179, 11);
+            this.label1.Location = new System.Drawing.Point(434, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 52);
             this.label1.TabIndex = 0;
@@ -59,10 +59,10 @@ namespace GDApplication
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.ForeColor = System.Drawing.Color.LightGray;
-            this.textBox1.Location = new System.Drawing.Point(133, 98);
+            this.textBox1.Location = new System.Drawing.Point(138, 125);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -75,10 +75,10 @@ namespace GDApplication
             // 
             // txtEmail
             // 
-            this.txtEmail.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtEmail.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtEmail.ForeColor = System.Drawing.Color.LightGray;
-            this.txtEmail.Location = new System.Drawing.Point(133, 312);
+            this.txtEmail.Location = new System.Drawing.Point(138, 339);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
@@ -90,10 +90,10 @@ namespace GDApplication
             // 
             // txtIlce
             // 
-            this.txtIlce.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtIlce.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtIlce.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtIlce.ForeColor = System.Drawing.Color.LightGray;
-            this.txtIlce.Location = new System.Drawing.Point(133, 528);
+            this.txtIlce.Location = new System.Drawing.Point(634, 248);
             this.txtIlce.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtIlce.Multiline = true;
             this.txtIlce.Name = "txtIlce";
@@ -105,10 +105,10 @@ namespace GDApplication
             // 
             // txtDogumTarihi
             // 
-            this.txtDogumTarihi.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtDogumTarihi.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtDogumTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtDogumTarihi.ForeColor = System.Drawing.Color.LightGray;
-            this.txtDogumTarihi.Location = new System.Drawing.Point(133, 420);
+            this.txtDogumTarihi.Location = new System.Drawing.Point(634, 125);
             this.txtDogumTarihi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDogumTarihi.Multiline = true;
             this.txtDogumTarihi.Name = "txtDogumTarihi";
@@ -120,10 +120,10 @@ namespace GDApplication
             // 
             // txtTcNo
             // 
-            this.txtTcNo.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtTcNo.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtTcNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTcNo.ForeColor = System.Drawing.Color.LightGray;
-            this.txtTcNo.Location = new System.Drawing.Point(133, 366);
+            this.txtTcNo.Location = new System.Drawing.Point(138, 393);
             this.txtTcNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTcNo.Multiline = true;
             this.txtTcNo.Name = "txtTcNo";
@@ -135,10 +135,10 @@ namespace GDApplication
             // 
             // txtSehir
             // 
-            this.txtSehir.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtSehir.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtSehir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSehir.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSehir.Location = new System.Drawing.Point(133, 474);
+            this.txtSehir.Location = new System.Drawing.Point(634, 194);
             this.txtSehir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSehir.Multiline = true;
             this.txtSehir.Name = "txtSehir";
@@ -150,10 +150,10 @@ namespace GDApplication
             // 
             // txtSoyad
             // 
-            this.txtSoyad.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtSoyad.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSoyad.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSoyad.Location = new System.Drawing.Point(133, 259);
+            this.txtSoyad.Location = new System.Drawing.Point(138, 286);
             this.txtSoyad.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSoyad.Multiline = true;
             this.txtSoyad.Name = "txtSoyad";
@@ -165,10 +165,10 @@ namespace GDApplication
             // 
             // txtAdres
             // 
-            this.txtAdres.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtAdres.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAdres.ForeColor = System.Drawing.Color.LightGray;
-            this.txtAdres.Location = new System.Drawing.Point(133, 581);
+            this.txtAdres.Location = new System.Drawing.Point(634, 301);
             this.txtAdres.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdres.Multiline = true;
             this.txtAdres.Name = "txtAdres";
@@ -180,10 +180,10 @@ namespace GDApplication
             // 
             // txtTelNo
             // 
-            this.txtTelNo.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtTelNo.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtTelNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTelNo.ForeColor = System.Drawing.Color.LightGray;
-            this.txtTelNo.Location = new System.Drawing.Point(133, 635);
+            this.txtTelNo.Location = new System.Drawing.Point(634, 355);
             this.txtTelNo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTelNo.Multiline = true;
             this.txtTelNo.Name = "txtTelNo";
@@ -195,10 +195,10 @@ namespace GDApplication
             // 
             // txtAd
             // 
-            this.txtAd.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtAd.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.ForeColor = System.Drawing.Color.LightGray;
-            this.txtAd.Location = new System.Drawing.Point(133, 205);
+            this.txtAd.Location = new System.Drawing.Point(138, 232);
             this.txtAd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAd.Multiline = true;
             this.txtAd.Name = "txtAd";
@@ -210,10 +210,10 @@ namespace GDApplication
             // 
             // txtSifre
             // 
-            this.txtSifre.BackColor = System.Drawing.Color.LemonChiffon;
+            this.txtSifre.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtSifre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSifre.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSifre.Location = new System.Drawing.Point(133, 151);
+            this.txtSifre.Location = new System.Drawing.Point(138, 178);
             this.txtSifre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSifre.Multiline = true;
             this.txtSifre.Name = "txtSifre";
@@ -225,14 +225,14 @@ namespace GDApplication
             // 
             // comboBoxCinsiyet
             // 
-            this.comboBoxCinsiyet.BackColor = System.Drawing.Color.LemonChiffon;
+            this.comboBoxCinsiyet.BackColor = System.Drawing.Color.WhiteSmoke;
             this.comboBoxCinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBoxCinsiyet.ForeColor = System.Drawing.Color.LightGray;
             this.comboBoxCinsiyet.FormattingEnabled = true;
             this.comboBoxCinsiyet.Items.AddRange(new object[] {
             "Kadın",
             "Erkek"});
-            this.comboBoxCinsiyet.Location = new System.Drawing.Point(133, 689);
+            this.comboBoxCinsiyet.Location = new System.Drawing.Point(634, 409);
             this.comboBoxCinsiyet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBoxCinsiyet.Name = "comboBoxCinsiyet";
             this.comboBoxCinsiyet.Size = new System.Drawing.Size(295, 37);
@@ -243,10 +243,10 @@ namespace GDApplication
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.OrangeRed;
+            this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("MV Boli", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(188, 739);
+            this.button1.Location = new System.Drawing.Point(443, 493);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(184, 68);
@@ -260,8 +260,9 @@ namespace GDApplication
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.BackgroundImage = global::GDApplication.Properties.Resources.Gazeteler;
-            this.ClientSize = new System.Drawing.Size(565, 821);
+            this.BackgroundImage = global::GDApplication.Properties.Resources.gazete;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1045, 600);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBoxCinsiyet);
             this.Controls.Add(this.txtSifre);

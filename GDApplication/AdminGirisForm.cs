@@ -105,5 +105,10 @@ namespace GDApplication
         {
 
         }
+
+        private void txtKullaniciAdi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
